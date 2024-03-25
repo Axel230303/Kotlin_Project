@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewWeather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weather: Sunny"
+        android:textSize="18sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"/>
+
+    <TextView
+        android:id="@+id/textViewTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temperature: 24°C"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewWeather"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewMinMaxTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Min: 15°C, Max: 25°C"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTemperature"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewWindSpeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wind Speed: 5m/s"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMinMaxTemp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewUVIndex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UV Index: 5"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewWindSpeed"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
