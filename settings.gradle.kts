@@ -15,5 +15,5 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "PIGNOL_LAFARGE"
-include(":MyWeatherApp")
+include(":WeatherAppi")
 include(":shared")
