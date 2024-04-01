@@ -170,7 +170,7 @@ fun WeatherDisplay(weather: WeatherResponse) {
                     painter = painterResource(id = R.drawable.tepid),
                     contentDescription = "Tepid",
                     modifier = Modifier
-                        .height(60.dp)
+                        .height(75.dp)
                         .align(Alignment.CenterHorizontally)
                 )
             } else if (temp > 15) {
@@ -283,6 +283,8 @@ fun WeatherDisplay(weather: WeatherResponse) {
                     Spacer(modifier =Modifier.height(16.dp))
                 }
             }
+            Spacer(modifier =Modifier.height(85.dp))
+            Text(text = "Application développé par Baptiste Lafarge et Axel Pignol", color = Color.Black, fontSize = 12.sp)
         }
     }
 }
