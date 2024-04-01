@@ -112,6 +112,8 @@ fun WeatherApp(weatherViewModel: WeatherViewModel = viewModel()) {
                 Text("Trouver la ville")
             }
 
+            Spacer(modifier = Modifier.size(16.dp))
+
             weatherResponse?.let { weather ->
                 WeatherDisplay(weather = weather)
             }
@@ -125,7 +127,6 @@ fun WeatherDisplay(weather: WeatherResponse) {
         modifier = Modifier
             .fillMaxSize()
             .padding(16.dp),
-        verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
 
@@ -134,7 +135,7 @@ fun WeatherDisplay(weather: WeatherResponse) {
             color = Color(0xFF58AAEB),
             fontSize = 52.sp,
             fontWeight = FontWeight.Bold,
-            fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace
+            fontFamily = androidx.compose.ui.text.font.FontFamily.Cursive
         )
 
         weather.weather.forEach { weatherDetail ->
@@ -150,7 +151,7 @@ fun WeatherDisplay(weather: WeatherResponse) {
                 color = Color(0xFF58AAEB),
                 fontSize = 48.sp,
                 fontWeight = FontWeight.Bold,
-                fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace
+                fontFamily = androidx.compose.ui.text.font.FontFamily.Cursive
             )
             Spacer(modifier = Modifier.height(16.dp))
 
@@ -188,7 +189,7 @@ fun WeatherDisplay(weather: WeatherResponse) {
 
                 Text(
                     text = "$weatherText",
-                    style = TextStyle(color = Color(0xFF58AAEB), fontSize = 18.sp),
+                    style = TextStyle(color = Color(0xFF58AAEB), fontSize = 26.sp),
                     fontWeight = FontWeight.Bold,
                     fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace
                 )
@@ -237,22 +238,49 @@ fun WeatherDisplay(weather: WeatherResponse) {
                     horizontalArrangement = Arrangement.SpaceBetween,
                     modifier = Modifier.fillMaxWidth()
                 ) {
-                    Text(
-                        text = "${weather.main.temp}°C",
-                        color = Color(0xFF58AAEB),
-                        fontSize = 22.sp,
-                        fontWeight = FontWeight.Bold,
-                        fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace
+                    Spacer(modifier = Modifier.height(50.dp))
+                    Image(
+                        painter = painterResource(id = R.drawable.wind),
+                        contentDescription = "Rain",
+                        modifier = Modifier
+                            .height(35.dp)
                     )
                     Text(
-                        text = "Vent : ${weather.wind.speed}m/s",
+                        text = "${weather.wind.speed}m/s",
                         color = Color(0xFF58AAEB),
                         fontSize = 22.sp,
                         fontWeight = FontWeight.Bold,
-                        fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace
+                        fontFamily = androidx.compose.ui.text.font.FontFamily.Cursive
+                    )
+                    Spacer(modifier = Modifier.height(30.dp))
+                }
+
+                Spacer(modifier =Modifier.height(32.dp))
+
+                Row(
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.SpaceBetween,
+                    modifier = Modifier.fillMaxWidth()
+                ) {
+                    Spacer(modifier = Modifier.height(16.dp))
+
+                    Text(
+                        text = "Min : ${weather.main.temp_min}°C",
+                        color = Color(0xFF58AAEB),
+                        fontSize = 22.sp,
+                        fontWeight = FontWeight.Bold,
+                        fontFamily = androidx.compose.ui.text.font.FontFamily.Cursive
                     )
 
-                    Spacer(modifier = Modifier.height(30.dp))
+                    Text(
+                        text = "Max : ${weather.main.temp_max}°C",
+                        color = Color(0xFF58AAEB),
+                        fontSize = 22.sp,
+                        fontWeight = FontWeight.Bold,
+                        fontFamily = androidx.compose.ui.text.font.FontFamily.Cursive
+                    )
+
+                    Spacer(modifier =Modifier.height(16.dp))
                 }
             }
         }
