@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "C:\\Users\\paxou\\.gradle\\daemon\\8.4\\com.example.pignol_lafarge.android.WeatherAppi-debug-51:\\drawable_cold.png.flat",
+        "source": "C:\\Users\\paxou\\.gradle\\daemon\\8.4\\com.example.pignol_lafarge.android.WeatherAppi-main-53:\\drawable\\cold.png"
+    },
+    {
+        "merged": "C:\\Users\\paxou\\.gradle\\daemon\\8.4\\com.example.pignol_lafarge.android.WeatherAppi-debug-51:\\drawable_wind.png.flat",
+        "source": "C:\\Users\\paxou\\.gradle\\daemon\\8.4\\com.example.pignol_lafarge.android.WeatherAppi-main-53:\\drawable\\wind.png"
+    },
+    {
+        "merged": "C:\\Users\\paxou\\.gradle\\daemon\\8.4\\com.example.pignol_lafarge.android.WeatherAppi-debug-51:\\drawable_background.png.flat",
+        "source": "C:\\Users\\paxou\\.gradle\\daemon\\8.4\\com.example.pignol_lafarge.android.WeatherAppi-main-53:\\drawable\\background.png"
+    },
+    {
+        "merged": "C:\\Users\\paxou\\.gradle\\daemon\\8.4\\com.example.pignol_lafarge.android.WeatherAppi-debug-51:\\drawable_rain.png.flat",
+        "source": "C:\\Users\\paxou\\.gradle\\daemon\\8.4\\com.example.pignol_lafarge.android.WeatherAppi-main-53:\\drawable\\rain.png"
+    },
+    {
+        "merged": "C:\\Users\\paxou\\.gradle\\daemon\\8.4\\com.example.pignol_lafarge.android.WeatherAppi-debug-51:\\drawable_background_afternoon.png.flat",
+        "source": "C:\\Users\\paxou\\.gradle\\daemon\\8.4\\com.example.pignol_lafarge.android.WeatherAppi-main-53:\\drawable\\background_afternoon.png"
+    },
+    {
+        "merged": "C:\\Users\\paxou\\.gradle\\daemon\\8.4\\com.example.pignol_lafarge.android.WeatherAppi-debug-51:\\drawable_tepid.png.flat",
+        "source": "C:\\Users\\paxou\\.gradle\\daemon\\8.4\\com.example.pignol_lafarge.android.WeatherAppi-main-53:\\drawable\\tepid.png"
+    },
+    {
+        "merged": "C:\\Users\\paxou\\.gradle\\daemon\\8.4\\com.example.pignol_lafarge.android.WeatherAppi-debug-51:\\drawable_thunderstorm.png.flat",
+        "source": "C:\\Users\\paxou\\.gradle\\daemon\\8.4\\com.example.pignol_lafarge.android.WeatherAppi-main-53:\\drawable\\thunderstorm.png"
+    },
+    {
+        "merged": "C:\\Users\\paxou\\.gradle\\daemon\\8.4\\com.example.pignol_lafarge.android.WeatherAppi-debug-51:\\drawable_sunny.png.flat",
+        "source": "C:\\Users\\paxou\\.gradle\\daemon\\8.4\\com.example.pignol_lafarge.android.WeatherAppi-main-53:\\drawable\\sunny.png"
+    },
+    {
+        "merged": "C:\\Users\\paxou\\.gradle\\daemon\\8.4\\com.example.pignol_lafarge.android.WeatherAppi-debug-51:\\drawable_background_evening.png.flat",
+        "source": "C:\\Users\\paxou\\.gradle\\daemon\\8.4\\com.example.pignol_lafarge.android.WeatherAppi-main-53:\\drawable\\background_evening.png"
+    },
+    {
+        "merged": "com.example.pignol_lafarge.android.WeatherAppi-debug-51:/drawable_cold.png.flat",
+        "source": "com.example.pignol_lafarge.android.WeatherAppi-main-53:/drawable/cold.png"
+    },
+    {
+        "merged": "C:\\Users\\paxou\\.gradle\\daemon\\8.4\\com.example.pignol_lafarge.android.WeatherAppi-debug-51:\\drawable_background1.png.flat",
+        "source": "C:\\Users\\paxou\\.gradle\\daemon\\8.4\\com.example.pignol_lafarge.android.WeatherAppi-main-53:\\drawable\\background1.png"
+    },
+    {
+        "merged": "C:\\Users\\paxou\\.gradle\\daemon\\8.4\\com.example.pignol_lafarge.android.WeatherAppi-debug-51:\\drawable_city.png.flat",
+        "source": "C:\\Users\\paxou\\.gradle\\daemon\\8.4\\com.example.pignol_lafarge.android.WeatherAppi-main-53:\\drawable\\city.png"
+    },
+    {
+        "merged": "C:\\Users\\paxou\\.gradle\\daemon\\8.4\\com.example.pignol_lafarge.android.WeatherAppi-debug-51:\\drawable_cloud.jpg.flat",
+        "source": "C:\\Users\\paxou\\.gradle\\daemon\\8.4\\com.example.pignol_lafarge.android.WeatherAppi-main-53:\\drawable\\cloud.jpg"
+    },
+    {
+        "merged": "C:\\Users\\paxou\\.gradle\\daemon\\8.4\\com.example.pignol_lafarge.android.WeatherAppi-debug-51:\\drawable_cloud.png.flat",
+        "source": "C:\\Users\\paxou\\.gradle\\daemon\\8.4\\com.example.pignol_lafarge.android.WeatherAppi-main-53:\\drawable\\cloud.png"
+    },
+    {
+        "merged": "C:\\Users\\paxou\\.gradle\\daemon\\8.4\\com.example.pignol_lafarge.android.WeatherAppi-debug-51:\\drawable_celsius.png.flat",
+        "source": "C:\\Users\\paxou\\.gradle\\daemon\\8.4\\com.example.pignol_lafarge.android.WeatherAppi-main-53:\\drawable\\celsius.png"
+    },
+    {
+        "merged": "com.example.pignol_lafarge.android.WeatherAppi-debug-51:/drawable_hot.png.flat",
+        "source": "com.example.pignol_lafarge.android.WeatherAppi-main-53:/drawable/hot.png"
+    },
+    {
+        "merged": "C:\\Users\\paxou\\.gradle\\daemon\\8.4\\com.example.pignol_lafarge.android.WeatherAppi-debug-51:\\drawable_background_morning.png.flat",
+        "source": "C:\\Users\\paxou\\.gradle\\daemon\\8.4\\com.example.pignol_lafarge.android.WeatherAppi-main-53:\\drawable\\background_morning.png"
+    },
+    {
+        "merged": "C:\\Users\\paxou\\.gradle\\daemon\\8.4\\com.example.pignol_lafarge.android.WeatherAppi-debug-51:\\drawable_hot.png.flat",
+        "source": "C:\\Users\\paxou\\.gradle\\daemon\\8.4\\com.example.pignol_lafarge.android.WeatherAppi-main-53:\\drawable\\hot.png"
+    },
+    {
+        "merged": "com.example.pignol_lafarge.android.WeatherAppi-debug-51:/drawable_tepid.png.flat",
+        "source": "com.example.pignol_lafarge.android.WeatherAppi-main-53:/drawable/tepid.png"
+    },
+    {
+        "merged": "C:\\Users\\paxou\\.gradle\\daemon\\8.4\\com.example.pignol_lafarge.android.WeatherAppi-debug-51:\\drawable_background_night.png.flat",
+        "source": "C:\\Users\\paxou\\.gradle\\daemon\\8.4\\com.example.pignol_lafarge.android.WeatherAppi-main-53:\\drawable\\background_night.png"
+    }
+]

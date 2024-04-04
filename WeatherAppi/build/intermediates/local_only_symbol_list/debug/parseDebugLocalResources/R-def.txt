@@ -1,0 +1,16 @@
+R_DEF: Internal format may change without notice
+local
+drawable background_afternoon
+drawable background_evening
+drawable background_morning
+drawable background_night
+drawable city
+drawable cloud
+drawable cold
+drawable hot
+drawable rain
+drawable sunny
+drawable tepid
+drawable thunderstorm
+drawable wind
+style AppTheme
