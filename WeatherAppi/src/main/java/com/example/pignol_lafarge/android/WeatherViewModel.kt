@@ -22,4 +22,6 @@ class WeatherViewModel(private val repository: WeatherRepository = WeatherReposi
             }
         }
     }
+
+    
 }

@@ -22,3 +22,9 @@ data class Weather(
 data class Wind(
     val speed: Double
 )
+
+data class CityFav(
+    val name: String,
+    val temperature: Double,
+    val weatherDescription: String
+)
