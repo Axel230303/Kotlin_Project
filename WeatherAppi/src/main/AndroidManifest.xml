@@ -8,9 +8,12 @@
     <application
         android:allowBackup="false"
         android:supportsRtl="true"
+        android:roundIcon="@mipmap/icon"
+        android:icon="@mipmap/icon"
+        android:label="GulliWeather"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name=".UI.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

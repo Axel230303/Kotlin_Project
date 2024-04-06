@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "com.example.pignol_lafarge.android.WeatherAppi-release-49:/drawable_hot.png.flat",
+        "source": "com.example.pignol_lafarge.android.WeatherAppi-main-50:/drawable/hot.png"
+    },
+    {
+        "merged": "com.example.pignol_lafarge.android.WeatherAppi-release-49:/drawable_cloud.png.flat",
+        "source": "com.example.pignol_lafarge.android.WeatherAppi-main-50:/drawable/cloud.png"
+    },
+    {
+        "merged": "com.example.pignol_lafarge.android.WeatherAppi-release-49:/mipmap_toobo.png.flat",
+        "source": "com.example.pignol_lafarge.android.WeatherAppi-main-50:/mipmap/toobo.png"
+    },
+    {
+        "merged": "com.example.pignol_lafarge.android.WeatherAppi-release-49:/drawable_city.png.flat",
+        "source": "com.example.pignol_lafarge.android.WeatherAppi-main-50:/drawable/city.png"
+    },
+    {
+        "merged": "com.example.pignol_lafarge.android.WeatherAppi-release-49:/drawable_background_night.png.flat",
+        "source": "com.example.pignol_lafarge.android.WeatherAppi-main-50:/drawable/background_night.png"
+    },
+    {
+        "merged": "com.example.pignol_lafarge.android.WeatherAppi-release-49:/drawable_background_evening.png.flat",
+        "source": "com.example.pignol_lafarge.android.WeatherAppi-main-50:/drawable/background_evening.png"
+    },
+    {
+        "merged": "com.example.pignol_lafarge.android.WeatherAppi-release-49:/drawable_thunderstorm.png.flat",
+        "source": "com.example.pignol_lafarge.android.WeatherAppi-main-50:/drawable/thunderstorm.png"
+    },
+    {
+        "merged": "com.example.pignol_lafarge.android.WeatherAppi-release-49:/drawable_tepid.png.flat",
+        "source": "com.example.pignol_lafarge.android.WeatherAppi-main-50:/drawable/tepid.png"
+    },
+    {
+        "merged": "com.example.pignol_lafarge.android.WeatherAppi-release-49:/drawable_background_afternoon.png.flat",
+        "source": "com.example.pignol_lafarge.android.WeatherAppi-main-50:/drawable/background_afternoon.png"
+    },
+    {
+        "merged": "com.example.pignol_lafarge.android.WeatherAppi-release-49:/drawable_wind.png.flat",
+        "source": "com.example.pignol_lafarge.android.WeatherAppi-main-50:/drawable/wind.png"
+    },
+    {
+        "merged": "com.example.pignol_lafarge.android.WeatherAppi-release-49:/drawable_background_morning.png.flat",
+        "source": "com.example.pignol_lafarge.android.WeatherAppi-main-50:/drawable/background_morning.png"
+    },
+    {
+        "merged": "com.example.pignol_lafarge.android.WeatherAppi-release-49:/mipmap_icon.png.flat",
+        "source": "com.example.pignol_lafarge.android.WeatherAppi-main-50:/mipmap/icon.png"
+    },
+    {
+        "merged": "com.example.pignol_lafarge.android.WeatherAppi-release-49:/drawable_sunny.png.flat",
+        "source": "com.example.pignol_lafarge.android.WeatherAppi-main-50:/drawable/sunny.png"
+    },
+    {
+        "merged": "com.example.pignol_lafarge.android.WeatherAppi-release-49:/drawable_cold.png.flat",
+        "source": "com.example.pignol_lafarge.android.WeatherAppi-main-50:/drawable/cold.png"
+    },
+    {
+        "merged": "com.example.pignol_lafarge.android.WeatherAppi-release-49:/drawable_rain.png.flat",
+        "source": "com.example.pignol_lafarge.android.WeatherAppi-main-50:/drawable/rain.png"
+    }
+]

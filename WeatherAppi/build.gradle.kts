@@ -57,5 +57,4 @@ dependencies {
     implementation("androidx.activity:activity-compose:1.3.1")
     implementation("androidx.compose.runtime:runtime-livedata:1.0.1")
     implementation("io.coil-kt:coil-compose:1.3.2")
-
 }
