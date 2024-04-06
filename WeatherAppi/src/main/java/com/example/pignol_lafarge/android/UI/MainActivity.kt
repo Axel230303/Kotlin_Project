@@ -236,6 +236,15 @@ fun WeatherDisplay(weather: WeatherResponse) {
                             .align(Alignment.CenterHorizontally)
                     )
                     Spacer(modifier = Modifier.height(16.dp))
+                } else if (weatherDetail.main == "Snowy") {
+                    Image(
+                        painter = painterResource(id = R.drawable.snowy),
+                        contentDescription = "Snow",
+                        modifier = Modifier
+                            .height(200.dp)
+                            .align(Alignment.CenterHorizontally)
+                    )
+                    Spacer(modifier = Modifier.height(16.dp))
                 }
 
                 Row(
